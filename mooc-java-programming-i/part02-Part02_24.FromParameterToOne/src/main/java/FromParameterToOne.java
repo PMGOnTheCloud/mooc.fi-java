@@ -6,5 +6,12 @@ public class FromParameterToOne {
 
 
     }
+    
+    public static void printFromNumberToOne(int number) {
+        while(number > 0) {
+            System.out.println(number);
+            number--;
+        }
+    }
 
 }
