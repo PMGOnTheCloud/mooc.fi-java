@@ -16,6 +16,14 @@ public class OnTheList {
 
             list.add(input);
         }
+        
+        String missingPerson = scanner.nextLine();
+        
+        if (list.contains(missingPerson)) {
+            System.out.println(missingPerson + " was found!");
+        } else {
+            System.out.println(missingPerson + " was not found!");
+        }
 
     }
 }

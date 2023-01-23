@@ -20,5 +20,13 @@ public class SumOfAList {
         System.out.println("");
 
         // toteuta listan lukujen summan laskeminen tänne
+        int sumOfTheList = 0;
+        
+        for(int number: list) {
+            sumOfTheList += number;
+        }
+        
+        
+        System.out.println("Sum: " + sumOfTheList);
     }
 }
