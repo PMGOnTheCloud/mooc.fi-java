@@ -10,11 +10,11 @@ public class Pet {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public String getBreed() {
-        return breed;
+        return this.breed;
     }
 
 }
